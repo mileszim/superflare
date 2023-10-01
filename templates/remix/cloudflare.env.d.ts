@@ -1,4 +1,5 @@
 /// <reference types="@cloudflare/workers-types" />
+/// <reference types="@cloudflare/puppeteer" />
 
 /**
  * This is only used in Workers mode.
@@ -25,4 +26,5 @@ interface Env {
   APP_KEY: string;
   QUEUE: Queue;
   CHANNELS: DurableObjectNamespace;
+  BROWSER: BrowserWorker;
 }

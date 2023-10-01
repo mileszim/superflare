@@ -25,4 +25,5 @@ interface Env {
   APP_KEY: string;
   QUEUE: Queue;
   CHANNELS: DurableObjectNamespace;
+  BROWSER: BrowserWorker;
 }
